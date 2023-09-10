@@ -17,6 +17,7 @@
 
 //------------------------------------------------------------------
 //Hash set, use extra memory,  Time: O(n) Space: O(n)
+//Set object lets you store unique values of any type, whether primitive values or object reference.
 
 const containsDuplicate = (nums) => {
   const arr = new Set(nums);

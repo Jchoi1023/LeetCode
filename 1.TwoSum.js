@@ -16,7 +16,9 @@
 //The time complexity of this solution is O(n**2) as using nested loops to iterate through the array.
 //Space: O(1)
 
+//Map objects are collections of key-value pairs.
 //Using Map()
+
 const twoSum = function (nums, target) {
   let newMap = new Map();
   for (let i = 0; i < nums.length; i++) {
